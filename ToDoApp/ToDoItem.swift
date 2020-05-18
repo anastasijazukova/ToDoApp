@@ -14,3 +14,11 @@ public class ToDoItem: NSManagedObject, Identifiable {
     @NSManaged public var toDoText:String?
     @NSManaged public var status:Bool
 }
+extension ToDoItem {
+    static func getAllToDoItems() -> NSFetchRequest<ToDoItem> {
+        let request:NSFetchRequest<ToDoItem> = ToDoItem.fetchRequest() as! NSFetchRequest<ToDoItem>
+        let sortDescriptor = NSSortDescriptor(key: "dueAt", ascending: true)
+        request.sortDescriptors = [sortDescriptor]
+        return request
+    }
+}

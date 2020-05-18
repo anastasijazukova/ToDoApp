@@ -17,6 +17,7 @@
 		DA45A6FD2471650500AE6B9E /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45A6FC2471650500AE6B9E /* ToDoAppTests.swift */; };
 		DA45A7082471650500AE6B9E /* ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45A7072471650500AE6B9E /* ToDoAppUITests.swift */; };
 		DA45A71624716C6C00AE6B9E /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45A71524716C6C00AE6B9E /* ToDoItem.swift */; };
+		DA45A7182471C3FB00AE6B9E /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA45A7172471C3FB00AE6B9E /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DA45A7072471650500AE6B9E /* ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppUITests.swift; sourceTree = "<group>"; };
 		DA45A7092471650500AE6B9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA45A71524716C6C00AE6B9E /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		DA45A7172471C3FB00AE6B9E /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DA45A6E22471650400AE6B9E /* AppDelegate.swift */,
 				DA45A6E42471650400AE6B9E /* SceneDelegate.swift */,
 				DA45A6E92471650400AE6B9E /* ContentView.swift */,
+				DA45A7172471C3FB00AE6B9E /* ToDoItemView.swift */,
 				DA45A71524716C6C00AE6B9E /* ToDoItem.swift */,
 				DA45A6EB2471650500AE6B9E /* Assets.xcassets */,
 				DA45A6F02471650500AE6B9E /* LaunchScreen.storyboard */,
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA45A6E32471650400AE6B9E /* AppDelegate.swift in Sources */,
+				DA45A7182471C3FB00AE6B9E /* ToDoItemView.swift in Sources */,
 				DA45A6E82471650400AE6B9E /* ToDoApp.xcdatamodeld in Sources */,
 				DA45A71624716C6C00AE6B9E /* ToDoItem.swift in Sources */,
 				DA45A6EA2471650400AE6B9E /* ContentView.swift in Sources */,
