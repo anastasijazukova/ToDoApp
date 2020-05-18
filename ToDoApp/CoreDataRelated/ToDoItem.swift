@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-public class ToDoItem: NSManagedObject, Identifiable {
+/* public class ToDoItem: NSManagedObject, Identifiable {
     @NSManaged public var dueDate:Date?
     @NSManaged public var toDoText:String?
     @NSManaged public var status:Bool
@@ -21,4 +21,4 @@ extension ToDoItem {
         request.sortDescriptors = [sortDescriptor]
         return request
     }
-}
+} */

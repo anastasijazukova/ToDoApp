@@ -9,8 +9,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    var body: some View {
+        Text("ToDoApp")
+    }
+}
+#if DEBUG
+struct ToDoItemView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
+#endif
     
-    @Environment(\.managedObjectContext) var managedObjectContext
+ /* @Environment(\.managedObjectContext) var managedObjectContext
     @FetchRequest(fetchRequest: ToDoItem.getAllToDoItems()) var toDoItems:FetchedResults<ToDoItem>
     
     @State private var newToDoItem = ""
@@ -38,7 +49,7 @@ struct ContentView: View {
                     }
                 }.font(.headline)
                 Section(header: Text("To do's")) {
-                    ForEach(self.toDoItems) {toDoItems in ToDoItemView (toDoText, dueAt: <#T##String#>)}
+                    ForEach(self.toDoItems) {ToDoItem in ToDoItemView(toDoText: ToDoItem.self)}
                 }
             }
             .navigationBarTitle(Text("My List"))
@@ -52,4 +63,4 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
+}*/

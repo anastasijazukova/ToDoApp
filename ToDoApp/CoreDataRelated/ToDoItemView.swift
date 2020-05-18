@@ -8,9 +8,11 @@
 
 import SwiftUI
 
-struct ToDoItemView: View {
+/*struct ToDoItemView: View {
     var toDoText:String = ""
     var dueAt:String = ""
+    var status:String
+    
     
     var body: some View {
         HStack {
@@ -23,11 +25,5 @@ struct ToDoItemView: View {
         }
     }
 }
-#if DEBUG
-struct ToDoItemView_Previews: PreviewProvider {
-    static var previews: some View {
-        ToDoItemView(toDoText: "My great todo", dueAt: "Next week")
-    }
-}
-#endif 
+
 
